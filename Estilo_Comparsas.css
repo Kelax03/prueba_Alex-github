@@ -47,5 +47,22 @@ header .logo span{
     color: var(--color-letra-t);
 }
 
+header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
 
+header nav ul li a{
+    text-decoration: none;
+    color: var(--color-letra-p);
+    font-family: var(--fuente-principal);
+}
+
+header nav ul li a:hover{
+    color: var(--color-letra-s)
+}
   
