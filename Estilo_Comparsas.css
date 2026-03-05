@@ -102,13 +102,13 @@ header nav ul li a:hover{
     color: var(--color-letra-hr);
 }
 
-.bando-titulo.crisitano h3{
+.bando-titulo.cristiano h3{
     font-family: var(--fuente-titulos);
     font-size: 2rem;
     color: var(--color-letra-t);
 }
 
-.comparsa-grid{
+.comparsas-grid{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -140,7 +140,7 @@ header nav ul li a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: var(--color-letra-p);
+    text-align: var(--posicion-p);
 }
 
 .comparsa-card h4{
@@ -160,4 +160,8 @@ header nav ul li a:hover{
 
 .comparsa-card.cristiano{
     border-left: 4px solid var(--color-letra-t);
+}
+
+.comparsa-card.cristiano h4{
+    color: var(--color-letra-t);
 }
