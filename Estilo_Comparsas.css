@@ -210,3 +210,27 @@ footer{
     border: 3px solid var(--color-letra-hr);
 }
 
+.puzzle-pieza{
+    width: 200px;
+    height: 200px;
+    background-image: url('mozarabes.jpg');
+    background-size: 400px 400px;
+    cursor: grab;
+    border: 2px solid var(--color-letra-hr);
+}
+
+.puzzle-boton{
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: var(--color-letra-hr);
+    color: var(--color-letra-s);
+    font-family: var(--fuente-principal);
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.puzzle-boton:hover{
+    background-color: var(--color-letra-t);
+}
