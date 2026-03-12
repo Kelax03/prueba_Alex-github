@@ -180,3 +180,33 @@ footer{
     padding: 20px;
     margin-top:50px;
 }
+
+.puzzle-section{
+    text-align: var(--posicion-t);
+    padding: 40px 20px;
+    margin-bottom: 40px;
+}
+
+.puzzle-section h2{
+    font-family: var(--fuente-titulos);
+    font-size: 2.5rem;
+    color: var(--color-letra-t);
+    margin-bottom: 10px;
+}
+
+.puzzle-section p{
+    font-family: var(--fuente-principal);
+    color: var(--color-letra-p);
+    margin-bottom: 20px;
+}
+
+.puzzle-tablero{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 4px;
+    margin: 0 auto;
+    width: fit-content;
+    border: 3px solid var(--color-letra-hr);
+}
+
