@@ -47,6 +47,12 @@ header .logo span{
     color: var(--color-letra-t);
 }
 
+header nav{
+    background-color: var(--color-letra-hr);
+    margin-top: 15px;
+    padding: 10px 0;
+}
+
 header nav ul{
     list-style: none;
     padding: 0;
@@ -58,12 +64,13 @@ header nav ul{
 
 header nav ul li a{
     text-decoration: none;
-    color: var(--color-letra-p);
+    color: var(--color-letra-s);
     font-family: var(--fuente-principal);
+    padding: 10px 20px;
 }
 
 header nav ul li a:hover{
-    color: var(--color-letra-hr)
+    color: var(--color-letra-t);
 }
   
 .comparsas-header{
@@ -164,4 +171,12 @@ header nav ul li a:hover{
 
 .comparsa-card.cristiano h4{
     color: var(--color-letra-t);
+}
+
+footer{
+    background-color: var(--color-letra-hr);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top:50px;
 }
