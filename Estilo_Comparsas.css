@@ -229,3 +229,10 @@ footer{
 .puzzle-boton:hover{
     background-color: var(--color-letra-t);
 }
+
+.galeria-section p{
+    text-align: var(--posicion-t);
+    font-family: var(--fuente-principal);
+    color: var(--color-letra-p);
+    margin-bottom: 20px;
+}
