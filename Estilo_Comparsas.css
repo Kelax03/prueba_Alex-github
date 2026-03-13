@@ -16,16 +16,26 @@
 
 }
 
+h1{
+    background-image: none;
+    padding: 20px;
+}
+
 header {
     color: var(--color-letra-hr);
     text-align: var(--posicion-t);
     font-family: var(--fuente-titulos);
     padding: 20px;
+    background-image: none;
+    background: none !important;
 }
 
 header h1 {
     font-size: 3rem;
     margin: 0;
+    background-image: none !important;
+    background: none !important;
+    padding: 20px;
 }
 
 header h3{
