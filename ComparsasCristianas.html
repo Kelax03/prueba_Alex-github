@@ -7,6 +7,7 @@
     <meta name="keywords" content="Almansa, Comparsas Moras, Comparsas Crisitianas, Fiestas de Mayo">
     <meta name="description" content="Fiestas Mayores de Almansa">
     <link rel="stylesheet" href="Estilo_Comparsas.css">
+    <script src="Puzzle.js" defer></script>
     <title>Comparsas Cristianas y Moras</title>
 </head>
 <body>
@@ -135,7 +136,7 @@
         </div>
         </section>
 
-        <div class="puzzle-section">
+        <section class="puzzle-section" id="puzzle">
             <h2>Puzle Comparsas</h2>
             <p>Ordena las piezas de forma correcta para crear la imagen</p>
             <div class="puzzle-contenedor">
@@ -153,7 +154,8 @@
             <div class="puzzle-pieza" id="pieza3" draggable="true" data-pos="3">
                 <img src="Imagenes/pieza3.jpg" alt="pieza3">
             </div>
-            
+                </div>
+
             <div class="puzzle-tablero" id="puzzleTablero">
             <div class="puzzle-hueco" data-hueco="0"></div>
             <div class="puzzle-hueco" data-hueco="1"></div>
@@ -162,7 +164,7 @@
             </div>
         </div>
             <button class="puzzle-boton" id="puzzleReiniciar">Reiniciar</button>
-        </div>
+        </section>
         
     <footer>Fiestas  Mayores de Almansa - Comparsas Moras y Cristianas</footer>
 </body>
