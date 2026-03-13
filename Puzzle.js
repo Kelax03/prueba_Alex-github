@@ -38,7 +38,15 @@ const comprobarVictoria = () => {
 
 
 botonReiniciar.addEventListener("click", () => {
-    const 
+    const contenedor= document.getElementById("piezasSueltas");
+    piezas.forEach((pieza) => {
+        contenedor.appendChild(pieza);
+    });
+    huecos.forEach((hueco) => {
+        hueco.innerHTML= ""; //esta parte me ha ayudado la ia ya que no sabia como conseguir reiniciar
+    });
+});
+
 
 
 
